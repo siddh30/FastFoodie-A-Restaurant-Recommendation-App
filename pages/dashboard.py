@@ -33,7 +33,7 @@ ax.set_ylabel('Cuisine Types')
 
 with col2:
     st.markdown("<h3 style='text-align: center;'>10 Most Popular Types of Cuisines</h3>", unsafe_allow_html=True)
-    st.pyplot(fig,use_column_width=True)
+    st.pyplot(fig)
 
 ### Seperating State, City and Zip Code from Location Column
 df['State'] = [i.split(",")[-1].split(" ")[1] for i in df.Location]
@@ -56,7 +56,7 @@ plt.gcf().set_size_inches(7, 5)
 
 with col1:
     st.markdown("<h3 style='text-align: center;'>No of Restaurants per State</h3>", unsafe_allow_html=True)
-    st.pyplot(fig,use_column_width=True)
+    st.pyplot(fig)
 
 
 ### Converting the string values to float/int values
@@ -86,7 +86,7 @@ plt.gcf().set_size_inches(7, 7)
 with col2:
     st.markdown("<h3 style='text-align: center;'>Best State For Food</h3>", unsafe_allow_html=True)
     st.text("")
-    st.pyplot(plot,use_column_width=True)
+    st.pyplot(plot)
 
 
 
@@ -98,4 +98,4 @@ plot = sns.catplot(x='City', y="Total Weighted Ratings", kind="bar", data=total_
 plt.gcf().set_size_inches(7, 7)
 with col3:
     st.markdown("<h3 style='text-align: center;'>Top 5 Cities For Food</h3>", unsafe_allow_html=True)
-    st.pyplot(plot,use_column_width=True)
+    st.pyplot(plot)
