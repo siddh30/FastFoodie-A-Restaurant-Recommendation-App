@@ -4,7 +4,7 @@
 
 The app to get you to the closest and most highly rated restaurants in 20 cities across New Jersey, New York, California, Texas, and Washington.
 
-<p align = "left"><img width="700" img height="400" src="https://github.com/siddh30/FastFoodie-A-Restaurant-Recommendation-App/blob/master/Data/Food.png"></p>
+<p align = "left"><img width="700" img height="400" src="https://github.com/siddh30/FastFoodie-A-Restaurant-Recommendation-App/blob/main/Data/Food.png"></p>
 
 
 ## The development of this app inclues four stages
