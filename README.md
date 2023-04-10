@@ -14,7 +14,7 @@ The app to get you to the closest and most highly rated restaurants in 20 cities
 
 3) Cleaning and Organizing the data.
 
-4) Building a Recommender System based on Weighted Content Based Filtering.  
+4) Building a Recommender System based on Collaborative Filtering.  
 
 5) UI - The User Interface was built based on python module called Streamlit.
 
