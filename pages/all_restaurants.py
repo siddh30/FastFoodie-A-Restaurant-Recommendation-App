@@ -79,17 +79,17 @@ def details(dataframe):
         #REVIEWS
         if Reviews == '4.5':
             image = Image.open('Data/Ratings/Img4.5.jpg')
-            st.image(image, use_column_width=True)
+            st.image(image, use_container_width=True)
 
 
         elif Reviews == '4':
             image = Image.open('Data/Ratings/Img4.0.jpg')
-            st.image(image, use_column_width=True)
+            st.image(image, use_container_width=True)
 
 
         elif Reviews == '5':
             image = Image.open('Data/Ratings/Img5.0.png')
-            st.image(image, use_column_width=True)
+            st.image(image, use_container_width=True)
 
         else:
             pass
@@ -136,34 +136,34 @@ def details(dataframe):
         
     st.text("")
     image = Image.open('Data/happy_eating.jpg')
-    st.image(image, use_column_width=True)
+    st.image(image, use_container_width=True)
 
 
 
 if option == 'New Jersey':
     image = Image.open('Data/New Jersey/nj.png')
-    st.image(image, use_column_width=True)
+    st.image(image, use_container_width=True)
     details(New_Jersey)
 
 
 elif option == 'New York':
     image = Image.open('Data/New York/ny.jpg')
-    st.image(image, use_column_width=True)
+    st.image(image, use_container_width=True)
     details(New_York)
 
 elif option == 'California':
     image = Image.open('Data/California/cali.jpg')
-    st.image(image, use_column_width=True)
+    st.image(image, use_container_width=True)
     details(California)
 
 elif option == 'Texas':
     image = Image.open('Data/Texas/Texas.jpg')
-    st.image(image, use_column_width=True)
+    st.image(image, use_container_width=True)
     details(Texas)
 
 elif option == 'Washington':
     image = Image.open('Data/Washington/washington.jpg')
-    st.image(image, use_column_width=True)
+    st.image(image, use_container_width=True)
     details(Washington)
 
 
